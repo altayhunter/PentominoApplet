@@ -1,0 +1,16 @@
+   PENTOMINO
+
+   The objective of this puzzle is to place all pentominoes on the board after you have
+   marked four squares to remain empty. To clear the board you push the button that
+   says "begin". A grid will appear. In the grid click on four different squares. They
+   will turn black. Then click on the pentomino of your choice, hold the mousebutton
+   and drag it on the board. To remove a pentomino you can drag it over the edge -
+   any edge - of the board and release it. Push (or hold) the right mousebutton to
+   rotate; doubleclick to flip the pentomino.
+   
+   Pentomino was written by Jos van Uden <paridaan@xs4all.nl>
+   for PAREDAEN WEBDESIGN
+   http://www.xs4all.nl/~paridaan/welcome.htm
+   
+   
+   
