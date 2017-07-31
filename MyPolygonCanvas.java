@@ -106,7 +106,7 @@ public class MyPolygonCanvas extends Panel implements Runnable
 		}
 		this.elect.orig_x = x;
 		this.elect.orig_y = y;
-		if ((event.metaDown()) && (!this.outside)) {
+		if (event.metaDown() && !this.outside) {
 			this.X = x;
 			this.Y = y;
 			this.rot = true;
@@ -114,7 +114,7 @@ public class MyPolygonCanvas extends Panel implements Runnable
 			this.rotation.start();
 			return true;
 		}
-		if ((event.clickCount == 2) && (this.flipIsAllowed)) {
+		if (event.clickCount == 2 && this.flipIsAllowed) {
 			this.elect.flip(x, y);
 			repaint();
 		}

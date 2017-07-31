@@ -11,8 +11,8 @@ $(OBJ): %.class : %.java
 run: $(OBJ)
 	java $(TARGET)
 
-lint:
-	java -jar /opt/findbugs/lib/findbugs.jar .
+lint: $(OBJ)
+	java -jar /opt/findbugs/lib/findbugs.jar *.class
 
 clean:
 	-rm *.class

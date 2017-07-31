@@ -40,7 +40,7 @@ public class MyPolygon extends Polygon
 	public final void flip(int x, int y) {
 		if (contains(x, y)) {
 			for (int i = 0; i < this.npoints; i++) {
-				this.xpoints[i] = -this.xpoints[i];
+				this.xpoints[i] = 2 * x - this.xpoints[i];
 			}
 		}
 	}
